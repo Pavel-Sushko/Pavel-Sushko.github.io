@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="keywords" content="HTML, CSS, JS">
-	<meta name="description" content="Personal website of Pavel Sushko">
-	<meta name="author" content="Pavel Sushko">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Cyber Security, Information Technology" />
+	<meta name="description" content="Personal website of Pavel Sushko" />
+	<meta name="author" content="Pavel Sushko" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<title>Pavel Sushko</title>
 
-	<link rel="stylesheet" href="css/navbar.css" type="text/css">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="./Styles/styles.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="./src/button.js" defer></script>
 </head>
 
-<header>
-	<a href="./index.html"><img class="logo" src="#" alt="logo"></a>
-	<nav>
-		<ul class="nav_tabs">
-			<li><a href="./index.html">Home</a></li>
-			<li><a href="./Tabs/projects.html">My Projects</a></li>
-		</ul>
-	</nav>
-	<a class="cta" href="./Tabs/contact.html"><button>Contact Me</button></a>
-</header>
+<body>
+	<header>
+		<a class="logo" href="./index.html"><img src="#" alt="logo" /></a>
+		<nav>
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./Tabs/projects.html">Projects</a></li>
+			</ul>
+		</nav>
+		<a class="cv" href="./Tabs/resume.html">
+			<button>Resume</button>
+			<canvas id="rain"></canvas>
+		</a>
+	</header>
+</body>
 
-<html>
+</html>
